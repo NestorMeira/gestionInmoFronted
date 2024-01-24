@@ -1,0 +1,65 @@
+header{  
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+   
+      .redes{
+        display:flex;
+        justify-content:flex-end;
+        align-items:center;
+        width: 100%;
+        height:50px;
+        background: #174700;
+
+      a{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        list-style-type: none;
+        color: aliceblue;
+     
+        .icono-redes{
+          color: aliceblue;
+        font-size:25px;
+        padding: 0 0.5rem;
+    
+        &:hover{
+          color: rgb(205, 250, 181);
+        }
+   
+        }
+    }
+    
+       }
+       .icono-redes{
+        color: aliceblue;
+        font-size:25px;
+        
+        &:hover{
+          color: rgb(205, 250, 181);
+        }}
+  
+  
+}
+
+@media (max-width:490px){
+  header{
+    img{
+      width: 100%;
+    }
+
+    .redes{
+      a{
+        font-size: 0.7rem;
+ 
+       font-weight: normal;
+      .icono-redes{
+        font-size: 1.5rem;
+     
+      }
+    }
+    }
+  }
+}
